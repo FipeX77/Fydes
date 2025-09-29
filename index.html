@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test GitHub Pages</title>
-</head>
-<body>
-  <h1>Ahoj světe!</h1>
-  <p>Pokud tohle vidíš, GitHub Pages fungují správně 🎉</p>
-</body>
-</html>
+<script>
+  const lang = navigator.language || navigator.userLanguage;
+  if (lang.startsWith("cs")) {
+    window.location.href = "cz/indexcz.html";
+  } else {
+    window.location.href = "en/indexen.html";
+  }
+</script>
+
+
