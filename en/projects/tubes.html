@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mechanical counter</title>
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <main class="project-wrapper">
+    <h1 class="project-header">Dice Tubes</h1>
+    <p class="short-description">Designed a custom screw-together tube for storing playmats and dice, 
+        based on client photos and dimensions. Delivered as 3D-printable files.</p>
+
+    <img src="../../projects/project6.jpg" alt="tubes" class="main-image" id="mainImage" />
+
+    <div class="gallery" id="gallery">
+      <img src="../../projects/p6-1.jpg" alt="Reference image for tubes" /> 
+      <img src="../../projects/p6-2.jpg" alt="Reference image for tubes" /> 
+    </div>
+
+    <p class="long-description">
+ A client reached out with a unique packaging idea for tabletop playmats — a modular tube that screws together in four separate parts. The goal was to store the playmat securely and include an additional compartment for dice. He sent me photo references along with rough dimensions, and I handled the full design process from there.
+
+The final design includes:<br>
+
+A base piece with a closed end and screw thread<br>
+
+A middle extension with threads on both ends<br>
+
+A top piece with one closed side and threading<br>
+
+A detachable dice compartment with its own lid<br>
+
+I carefully modeled each part for fit, function, and visual consistency. The tube was optimized for 3D printing, with clear tolerances and modularity in mind. All parts were delivered in STL and STEP formats, ready for production.
+
+The client was very satisfied with how closely the model matched his vision — a sleek, fully functional packaging solution brought to life from just a few photos and an idea.
+
+    </p>
+
+    <a href="/" class="back-button">← Back to Portfolio</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Fydes
+  </footer>
+
+</body>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const mainImage = document.getElementById('mainImage');
+    const gallery = document.getElementById('gallery');
+
+    mainImage.addEventListener('click', () => {
+      gallery.style.display = gallery.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
+</html>

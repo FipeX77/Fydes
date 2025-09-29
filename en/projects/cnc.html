@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mechanical counter</title>
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <main class="project-wrapper">
+    <h1 class="project-header">Custom CNC Keychain for Marathon Event</h1>
+    <p class="short-description">Designed a custom NYC marathon keychain for a U.S. client, 
+        featuring magnetically connected CNC-cut parts with engraved times and a Central Park outline. Delivered precise DXF files optimized for manufacturing.</p>
+
+   <img src="../../projects/project3.jpg" alt="cnc" class="main-image" id="mainImage" />
+
+    <div class="gallery" id="gallery">
+      <img src="../../projects/p3-1.jpg" alt="cnc" /> 
+      <img src="../../projects/p3-2.jpg" alt="cnc" /> 
+    </div>
+
+    <p class="long-description">
+      This was a fun project for a U.S. client who wanted a custom keychain to celebrate running the NYC marathon. The keychain was split into two CNC-cut parts:
+
+Front piece had engraved years and finish times, with an empty spot in the middle for a small emblem.
+
+Back piece featured a detailed outline of Central Park and a cutout for a leather strap.
+
+Both parts were designed to snap together using two magnets, so it holds firmly but can be taken apart if needed.
+
+One of the main challenges was getting the magnet alignment just right in both DXF files — had to test the tolerances so they fit snugly after manufacturing. Also had to keep engraved text sharp and readable, while keeping everything manufacturable on a standard CNC laser.
+
+I exported the whole thing as clean, layered DXF files, separating through-cuts and engravings for production. The client was super happy with how it turned out.
+
+If you need custom CNC parts, personalized items, or layered assembly design, I’ve got you covered!
+
+
+    </p>
+
+    <a href="/" class="back-button">← Back to Portfolio</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Fydes
+  </footer>
+
+</body>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const mainImage = document.getElementById('mainImage');
+    const gallery = document.getElementById('gallery');
+
+    mainImage.addEventListener('click', () => {
+      gallery.style.display = gallery.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
+</html>

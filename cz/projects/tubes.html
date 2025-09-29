@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trubky</title>
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <main class="project-wrapper">
+    <h1 class="project-header">Tubusy na kostky</h1>
+    <p class="short-description">Navrhl jsem zakázkový šroubovací tubus na 
+      uchování playmatů a kostek podle klientových fotek a rozměrů. Výstupem 
+      byly 3D modely připravené k tisku.</p>
+
+    <img src="../../projects/project6.jpg" alt="tubes" class="main-image" id="mainImage" />
+
+    <div class="gallery" id="gallery">
+      <img src="../../projects/p6-1.jpg" alt="Reference image for tubes" /> 
+      <img src="../../projects/p6-2.jpg" alt="Reference image for tubes" /> 
+    </div>
+
+    <p class="long-description">
+Klient mě oslovil s originálním nápadem na obal pro deskové hry – modulární tubus, který se šroubuje ze čtyř částí. Cílem bylo bezpečně uložit herní podložku a zároveň přidat prostor pro kostky. Poslal mi referenční fotografie a přibližné rozměry, zbytek návrhu už byl na mně.
+Finální návrh obsahoval:<br>
+
+– Základní díl se zavřeným koncem a vnějším závitem<br>
+– Střední prodlužující část se závity na obou stranách<br>
+– Vrchní část se zavřenou stranou a vnitřním závitem<br>
+– Oddělený oddíl na kostky s vlastním víčkem<br>
+
+Každý díl jsem pečlivě navrhl s ohledem na přesné dosednutí, funkčnost i vzhled. Celý tubus byl optimalizován pro 3D tisk s důrazem na vhodné tolerance a modulárnost. Všechny části jsem dodal ve formátech STL a STEP, připravené pro výrobu.
+
+Klient byl velmi spokojený s tím, jak přesně model odpovídal jeho představám – elegantní a plně funkční obalový systém vytvořený jen na základě několika fotek a nápadu.
+
+    </p>
+
+    <a href="/" class="back-button">← Zpět na portfolio</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Fydes
+  </footer>
+
+</body>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const mainImage = document.getElementById('mainImage');
+    const gallery = document.getElementById('gallery');
+
+    mainImage.addEventListener('click', () => {
+      gallery.style.display = gallery.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
+</html>

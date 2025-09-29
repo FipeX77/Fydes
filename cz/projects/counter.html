@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mechanické počítadlo</title>
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <main class="project-wrapper">
+    <h1 class="project-header">Mechanický čítač</h1>
+<p class="short-description">Navrhl jsem mechanický ovládací panel se třemi převodovými systémy pro sledování paliva, osadníků a vzdálenosti.</p>
+
+<img src="../../projects/project2.jpg" alt="čítač" class="main-image" id="mainImage" />
+
+<div class="gallery" id="gallery">
+  <img src="../../projects/p2-1.jpg" alt="čítač" /> 
+  <img src="../../projects/p2-2.jpg" alt="čítač" /> 
+  <img src="../../projects/p2-3.jpg" alt="čítač" /> 
+</div>
+
+<p class="long-description">
+Pro sci-fi deskovou hru jsem navrhl a zkonstruoval mechanický panel, který sleduje množství paliva, počet osadníků a ujetou vzdálenost pomocí tří nezávislých převodových mechanismů. Každý systém má vlastní převodové poměry, umožňující modulární a desetinné počítání (např. osadníci v systému 7×25, vzdálenost až do 9999).
+
+📐 Na náhledech uvidíte:
+
+Digitální prototyp vytvořený v CADu
+
+Reálně vytištěnou 3D verzi v akci
+
+Jeden z mnoha ručně kreslených technických náčrtů, které jsem použil k doladění rozmístění ozubených kol a vzdálenosti mezi vrstvami
+
+Finální návrh je vícevrstvý:
+
+Spodní část: podpůrná deska s hexagonovou mřížkou
+
+Střed: ozubené převody s vlastními gravírovanými ukazateli
+
+Vrchní část: gravírovaný rám s popsanými otvory a ovládacími kolečky pro hráče
+
+⚙️ Všechno je plně funkční: otočením koleček se mění hodnoty a všechny číslice a mechaniky se synchronizovaně aktualizují. Návrh je zaměřen na hratelnost, steampunkový vzhled a snadnou výrobu (testováno pomocí 3D tisku a laserového řezání plexiskla).
+
+Prošli jsme několika úpravami, ale nakonec jsme vytvořili první plně funkční verzi.
+
+Potřebujete něco podobného? Rád proměním herní mechaniku ve funkční interaktivní fyzické zařízení připravené k prototypování nebo výrobě.
+</p>
+
+    <a href="/" class="back-button">←  Zpět na portfolio</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Fydes
+  </footer>
+
+</body>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const mainImage = document.getElementById('mainImage');
+    const gallery = document.getElementById('gallery');
+
+    mainImage.addEventListener('click', () => {
+      gallery.style.display = gallery.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
+</html>

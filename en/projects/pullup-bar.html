@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pull-up Bar Redesign</title>
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <main class="project-wrapper">
+    <h1 class="project-header">Pull-up Bar Redesign</h1>
+    <p class="short-description">Redesigned a multifunctional pull-up bar with four grip styles for improved strength and ergonomics. Delivered a manufacturable model fit for gym use.</p>
+
+   <img src="../../projects/project5.jpg" alt="Pull-up Bar Preview" class="main-image" id="mainImage" />
+
+    <div class="gallery" id="gallery">
+      <!-- <img src="project5.jpg" alt="Pull-up Bar Angle 2" /> -->
+      
+    </div>
+
+    <p class="long-description">
+      One of my clients reached out with a request to fully remodel their existing wall-mounted pull-up bar. The bar included four different grip positions and had been used regularly in a home gym, but they wanted an upgraded version with better ergonomics and a manufacturing-ready 3D model.
+
+I carefully measured the original part and recreated the entire geometry in CAD, optimizing the design for strength, grip comfort, and wall mounting. I also refined the construction for potential CNC fabrication or welding, depending on the production method.
+
+The final design is robust, accurate, and fully prepared for fabrication — a solid example of how I can reverse-engineer real-world gym equipment and enhance it for usability and production.
+    </p>
+
+    <a href="/" class="back-button">← Back to Portfolio</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Fydes
+  </footer>
+
+</body>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const mainImage = document.getElementById('mainImage');
+    const gallery = document.getElementById('gallery');
+
+    mainImage.addEventListener('click', () => {
+      gallery.style.display = gallery.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mechanical counter</title>
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <main class="project-wrapper">
+    <h1 class="project-header">3D Printable Vase from Hand Sketch</h1>
+    <p class="short-description">Turned a client's hand-drawn vase sketch into a 
+        3D-printable model within 24 hours. Guided him through the process and delivered STL, STEP, and 3MF files ready for manufacturing.</p>
+
+    <img src="../../projects/project4.jpg" alt="vase" class="main-image" id="mainImage" />
+
+    <div class="gallery" id="gallery">
+      <img src="../../projects/p4-1.jpg" alt="Reference image for vase" /> 
+      <img src="../../projects/p4-2.jpg" alt="Reference image for vase" /> 
+    </div>
+
+    <p class="long-description">
+Max reached out with a hand-drawn sketch of a large round vase and asked if I could turn it into a 3D-printable model within 24 hours. He had never ordered a CAD model before, so I guided him through the process step by step.
+
+He provided 2 simple sketches, and based on those I modeled the full geometry with smooth transitions and proportional dimensions – while also adapting it slightly for better 3D printability.
+
+I delivered the model in STL, STEP, and 3MF formats, ready to be used with any online 3D printing service.
+
+📎 In the portfolio you can see:
+
+One of the original hand sketches
+
+A second angle sketch with dimensions
+
+A render preview of the final vase model
+
+It was a simple but satisfying project, and a great example of how I help clients with zero CAD experience bring their ideas into reality — quickly, clearly, and with manufacturability in mind.
+
+Need a custom printable object? Even from just a rough sketch? Let’s make it happen. 
+
+    </p>
+
+    <a href="/" class="back-button">← Back to Portfolio</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Fydes
+  </footer>
+
+</body>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const mainImage = document.getElementById('mainImage');
+    const gallery = document.getElementById('gallery');
+
+    mainImage.addEventListener('click', () => {
+      gallery.style.display = gallery.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
+</html>

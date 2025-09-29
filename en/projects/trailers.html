@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trailers</title>
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <main class="project-wrapper">
+    <h1 class="project-header">Efficient modeling of scaled down trailers</h1>
+    <p class="short-description">Scaled five trailers in Fusion 360 with high detail for hobby 3D printing.</p>
+
+    <img src="../../projects/project.jpg" alt="trailer" class="main-image" id="mainImage" />
+
+    <div class="gallery" id="gallery">
+        <img src="../../projects/p1-1.jpg" alt="trailer"/> 
+        <img src="../../projects/p1-2.jpg" alt="trailer"/> 
+        <img src="../../projects/p1-3.jpg" alt="trailer"/> 
+        <img src="../../projects/p1-4.jpg" alt="trailer"/> 
+    </div>
+
+    <p class="long-description">
+     I was tasked with creating five scaled down versions of trailers for a client who needed accurate and detailed models for hobby purposes. The goal was to ensure that each model maintained precise proportions and represented the original design while being scaled to a smaller size.
+
+Since this was my begining i had to achieve this, I utilized Fusion 360 for precise CAD modeling and ensured that all critical details were preserved in the scaled down designs. I also implemented a systematic workflow to verify measurements and design accuracy throughout the project.
+
+The client was highly satisfied with the final models, which were used successfully for their hobby 3D printing. This project demonstrated my ability to adapt to client requirements and deliver high quality results under time constraints.
+    </p>
+
+    <a href="/" class="back-button">← Back to Portfolio</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Fydes
+  </footer>
+
+</body>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const mainImage = document.getElementById('mainImage');
+    const gallery = document.getElementById('gallery');
+
+    mainImage.addEventListener('click', () => {
+      gallery.style.display = gallery.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
+</html>

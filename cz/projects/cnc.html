@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CNC přívěsek</title>
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <main class="project-wrapper">
+<h1 class="project-header">Vlastní CNC klíčenka pro maraton</h1>
+<p class="short-description">Navrhl jsem zakázkovou klíčenku pro newyorský maraton pro klienta z USA. Skládá se z CNC vyřezaných částí s magnetickým spojem, gravírovanými časy a obrysem Central Parku. Dodal jsem přesné DXF soubory optimalizované pro výrobu.</p>
+
+<img src="../../projects/project3.jpg" alt="cnc" class="main-image" id="mainImage" />
+
+<div class="gallery" id="gallery">
+  <img src="../../projects/p3-1.jpg" alt="cnc" /> 
+  <img src="../../projects/p3-2.jpg" alt="cnc" /> 
+</div>
+
+<p class="long-description">
+Tento projekt jsem dělal pro klienta z USA, který chtěl vlastní klíčenku na památku uběhnutí maratonu v New Yorku. Klíčenka byla rozdělena na dvě CNC vyřezané části:
+
+Přední část obsahovala gravírované roky a dosažené časy, uprostřed byl prostor pro malý emblém.
+
+Zadní část zobrazovala detailní obrys Central Parku a výřez pro kožený pásek.
+
+Obě části byly navrženy tak, aby se spojily pomocí dvou magnetů – drží pevně, ale lze je snadno rozpojit.
+
+Jednou z hlavních výzev bylo přesné zarovnání magnetů v obou DXF souborech – musel jsem si pohrát s tolerancemi, aby po výrobě vše přesně sedělo. Zároveň bylo potřeba udržet gravírovaný text ostrý a čitelný, a přitom zajistit, aby celý návrh šel vyrobit běžným CNC laserem.
+
+Finální verzi jsem exportoval jako přehledně vrstvené DXF soubory, kde byly zvlášť výřezy a zvlášť gravírování. Klient byl s výsledkem maximálně spokojený.
+
+Potřebujete vlastní CNC díly, personalizované předměty nebo návrh vícedílné montáže? Rád pomůžu!
+</p>
+
+    <a href="/" class="back-button">←  Zpět na portfolio</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Fydes
+  </footer>
+
+</body>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const mainImage = document.getElementById('mainImage');
+    const gallery = document.getElementById('gallery');
+
+    mainImage.addEventListener('click', () => {
+      gallery.style.display = gallery.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
+</html>

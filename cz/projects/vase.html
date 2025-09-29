@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Váza</title>
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <main class="project-wrapper">
+    <h1 class="project-header">3D tisknutelná váza podle ruční skici</h1>
+    <p class="short-description">do 24 hodin. Klienta jsem provedl celým procesem a dodal STL, STEP a 3MF soubory připravené pro výrobu.</p>
+
+    <img src="../../projects/project4.jpg" alt="vase" class="main-image" id="mainImage" />
+
+    <div class="gallery" id="gallery">
+      <img src="../../projects/p4-1.jpg" alt="Reference image for vase" /> 
+      <img src="../../projects/p4-2.jpg" alt="Reference image for vase" /> 
+    </div>
+
+    <p class="long-description">
+Max mě kontaktoval s ručně kresleným náčrtem velké kulaté vázy a požádal mě, zda bych ji dokázal převést do 3D modelu připraveného pro tisk – a to do 24 hodin. Nikdy si dříve CAD model neobjednával, takže jsem ho celým procesem trpělivě provedl krok za krokem.
+Poslal mi 2 jednoduché skici a na jejich základě jsem vymodeloval celou geometrii s plynulými přechody a proporčně odpovídajícími rozměry – s drobnými úpravami pro lepší tisknutelnost.
+
+Model jsem dodal ve formátech STL, STEP a 3MF, připravený pro jakoukoli online 3D tiskovou službu.
+
+📎 V portfoliu můžete vidět: <br>
+
+– Jeden z původních ručně kreslených návrhů <br>
+– Druhou skicu s pohledem z jiného úhlu a rozměry <br>
+– Náhled finálního 3D modelu vázy ve formě renderu<br>
+
+Byl to jednoduchý, ale velmi příjemný projekt – skvělý příklad toho, jak pomáhám klientům bez zkušeností s CADem přivést jejich nápady k životu – rychle, přehledně a s důrazem na vyrobitelnost.
+
+Potřebujete vlastní model pro 3D tisk? Klidně i jen podle hrubého náčrtu? Ozvěte se – rád pomohu.
+
+    </p>
+
+    <a href="/" class="back-button">← Zpět na portfolio</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Fydes
+  </footer>
+
+</body>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const mainImage = document.getElementById('mainImage');
+    const gallery = document.getElementById('gallery');
+
+    mainImage.addEventListener('click', () => {
+      gallery.style.display = gallery.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
+</html>

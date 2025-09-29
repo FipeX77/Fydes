@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mechanical counter</title>
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <main class="project-wrapper">
+    <h1 class="project-header">Mechanical counter</h1>
+    <p class="short-description">Designed a mechanical dashboard with 3 gear systems for tracking fuel, settlers, and distance.</p>
+
+   <img src="../../projects/project2.jpg" alt="counter" class="main-image" id="mainImage" />
+
+    <div class="gallery" id="gallery">
+      <img src="../../projects/p2-1.jpg" alt="counter" /> 
+      <img src="../../projects/p2-2.jpg" alt="counter" /> 
+      <img src="../../projects/p2-3.jpg" alt="counter" /> 
+    </div>
+
+    <p class="long-description">
+      For a sci-fi board game, I designed and engineered a mechanical dashboard that tracks fuel, settlers, and distance using 3 independent gear systems. Each system features custom gear ratios for modular and decimal counting (e.g. settlers in 7×25 format, distance up to 9999).
+
+📐 In the preview images, you can see:
+
+A working digital prototype modeled in CAD
+
+A real-world 3D Printed version in action
+
+One of many hand-drawn technical diagrams I used to finetune the gear placement and layer spacing
+
+The final design uses a layered structure:
+
+Bottom: hex-grid support plate
+
+Middle: gear system (custom engraved indicators)
+
+Top: engraved frame with labeled openings and player control knobs
+
+⚙️ Everything is functional: rotate knobs to change values, and all digits/mechanics update in sync. The design prioritizes playability, steampunk aesthetics, and manufacturing feasibility (tested with 3D print + laser cut plexi).
+
+We went trough a lot of changes, but managed to make first functional version.
+
+Need something similar? I can turn your game mechanic into a functional, interactive, physical device ready for prototyping or production.
+
+
+    </p>
+
+    <a href="/" class="back-button">← Back to Portfolio</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Fydes
+  </footer>
+
+</body>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const mainImage = document.getElementById('mainImage');
+    const gallery = document.getElementById('gallery');
+
+    mainImage.addEventListener('click', () => {
+      gallery.style.display = gallery.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
+</html>

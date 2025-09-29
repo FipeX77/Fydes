@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hrazda</title>
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <main class="project-wrapper">
+    <h1 class="project-header">Redesign hrazdy na shyby</h1>
+<p class="short-description">Přepracoval jsem multifunkční nástěnnou hrazdu se čtyřmi úchopy pro lepší pevnost a ergonomii. Výsledný model je připravený pro výrobu a použití ve fitku.</p>
+
+<img src="../../projects/project5.jpg" alt="Náhled hrazdy" class="main-image" id="mainImage" />
+
+<div class="gallery" id="gallery">
+  <!-- <img src="project5.jpg" alt="Další úhel hrazdy" /> -->
+</div>
+
+<p class="long-description">
+Jeden z mých klientů mě oslovil s požadavkem na kompletní přepracování své stávající nástěnné hrazdy na shyby. Původní verze nabízela čtyři různé úchopy a byla pravidelně používána v domácí posilovně, ale klient chtěl modernější verzi s lepší ergonomií a výrobně připraveným 3D modelem.
+
+Pečlivě jsem změřil původní díl a kompletně jej zrekonstruoval v CADu. Při návrhu jsem optimalizoval pevnost, pohodlí úchopu i uchycení na zeď. Konstrukce byla zároveň navržena s ohledem na výrobu – ať už CNC obráběním nebo svařováním.
+
+Konečný návrh je robustní, přesný a plně připravený k výrobě — skvělý příklad toho, jak dokážu zpětně navrhnout reálné vybavení do posilovny a vylepšit jej pro praktičnost i produkci.
+</p>
+
+    <a href="/" class="back-button">←  Zpět na portfolio</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Fydes
+  </footer>
+
+</body>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const mainImage = document.getElementById('mainImage');
+    const gallery = document.getElementById('gallery');
+
+    mainImage.addEventListener('click', () => {
+      gallery.style.display = gallery.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
+</html>

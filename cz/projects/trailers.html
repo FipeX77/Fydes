@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Přívěsy</title>
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <main class="project-wrapper">
+<h1 class="project-header">Efektivní modelování zmenšených přívěsů</h1>
+<p class="short-description">Pět přívěsů detailně zmenšeno v aplikaci Fusion 360 pro hobby 3D tisk.</p>
+
+<img src="../../projects/project.jpg" alt="přívěs" class="main-image" id="mainImage" />
+
+<div class="gallery" id="gallery">
+    <img src="../../projects/p1-1.jpg" alt="přívěs"/> 
+    <img src="../../projects/p1-2.jpg" alt="přívěs"/> 
+    <img src="../../projects/p1-3.jpg" alt="přívěs"/> 
+    <img src="../../projects/p1-4.jpg" alt="přívěs"/> 
+</div>
+
+<p class="long-description">
+Byl jsem pověřen vytvořením pěti zmenšených verzí přívěsů pro klienta, který požadoval přesné a detailní modely pro hobby účely. Cílem bylo zachovat proporce a charakter původního designu i při menším měřítku.
+
+Protože šlo o jeden z mých prvních projektů, musel jsem prokázat schopnost zvládnout přesné CAD modelování ve Fusion 360 a zároveň zachovat všechny důležité detaily v menším měřítku. Vytvořil jsem systematický pracovní postup pro ověřování rozměrů a přesnosti návrhu během celého procesu.
+
+Klient byl s výsledkem velmi spokojen – modely využil k úspěšnému hobby 3D tisku. Projekt ukázal moji schopnost přizpůsobit se požadavkům klienta a dodat kvalitní výsledek i pod časovým tlakem.
+</p>
+
+    <a href="/" class="back-button">← Zpět na portfolio</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Fydes
+  </footer>
+
+</body>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const mainImage = document.getElementById('mainImage');
+    const gallery = document.getElementById('gallery');
+
+    mainImage.addEventListener('click', () => {
+      gallery.style.display = gallery.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
+</html>
