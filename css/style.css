@@ -52,7 +52,7 @@ nav a:hover {
 /* HERO SECTION */
 .hero {
   height: 100vh;
-  background: url('../img/homepage.jpg') center center / cover no-repeat;
+  background: url('../img/homepage.JPG') center center / cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -555,4 +555,5 @@ footer {
   font-size: 0.9rem;
   color: #aaa;
   text-align: left;
+
 }
